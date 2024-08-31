@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Word Scramble Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="box">
+        <div class="container">
+            <h1>Word Scramble</h1>
+            <div id="scrambledWord">ALTPN</div>
+            <div id="hint">Hint: A living organism that grows in the ground</div>
+            <div id="timer">Time Left: <span id="timeLeft">11</span>s</div>
+            <input type="text" id="userInput" placeholder="Enter your guess">
+            <button id="checkWord">Check Word</button>
+            <button id="refreshWord">New Word</button>
+            <div id="feedback"></div>
+            <div id="attempts">Attempts: 0</div>
+            <button id="restartButton" style="display: none;">Restart Game</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
